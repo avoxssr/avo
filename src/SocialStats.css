@@ -1,0 +1,38 @@
+.social-stats {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.links {
+  margin-top: 0.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  font-size: 1.1rem;
+  gap: 6px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.social-link.youtube:hover {
+  color: #ff0000;
+  transform: translateY(-2px) scale(1.07);
+}
+
+.social-link.tiktok:hover {
+  color: #ff0000;
+  transform: translateY(-2px) scale(1.07);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
